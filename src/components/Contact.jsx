@@ -4,11 +4,11 @@ export const Contact = () => {
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 justify-content-center">
           <div className="col-lg-8 col-xl-6 text-center">
-            <h2 className="mt-0">Let's Get In Touch!</h2>
+            <h2 className="mt-0">Pongámonos en contacto</h2>
             <hr className="divider" />
             <p className="text-muted mb-5">
-              Ready to start your next project with us? Send us a messages and
-              we will get back to you as soon as possible!
+              ¿Tienes un proyecto en mente o deseas saber más sobre mi trabajo?
+              ¡Envíame un mensaje y te responderé lo antes posible!
             </p>
           </div>
         </div>
@@ -28,15 +28,15 @@ export const Contact = () => {
                   className="form-control"
                   id="name"
                   type="text"
-                  placeholder="Enter your name..."
+                  placeholder="Ingresa tu nombre..."
                   data-sb-validations="required"
                 />
-                <label htmlFor="name">Full name</label>
+                <label htmlFor="name">Nombre completo</label>
                 <div
                   className="invalid-feedback"
                   data-sb-feedback="name:required"
                 >
-                  A name is required.
+                  El nombre es obligatorio
                 </div>
               </div>
               {/*<!-- Email address input-->*/}
@@ -45,21 +45,21 @@ export const Contact = () => {
                   className="form-control"
                   id="email"
                   type="email"
-                  placeholder="name@example.com"
+                  placeholder="nombre@ejemplo.com"
                   data-sb-validations="required,email"
                 />
-                <label htmlFor="email">Email address</label>
+                <label htmlFor="email">Correo electrónico</label>
                 <div
                   className="invalid-feedback"
                   data-sb-feedback="email:required"
                 >
-                  An email is required.
+                  El correo es obligatorio.
                 </div>
                 <div
                   className="invalid-feedback"
                   data-sb-feedback="email:email"
                 >
-                  Email is not valid.
+                  El correo no es válido.
                 </div>
               </div>
               {/*<!-- Phone number input-->*/}
@@ -71,12 +71,12 @@ export const Contact = () => {
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
                 />
-                <label htmlFor="phone">Phone number</label>
+                <label htmlFor="phone">Número de teléfono</label>
                 <div
                   className="invalid-feedback"
                   data-sb-feedback="phone:required"
                 >
-                  A phone number is required.
+                  El número de teléfono es requerido.
                 </div>
               </div>
               {/*<!-- Message input-->*/}
@@ -85,16 +85,16 @@ export const Contact = () => {
                   className="form-control"
                   id="message"
                   type="text"
-                  placeholder="Enter your message here..."
+                  placeholder="Escribe tu mensaje aquí..."
                   style={{ height: "10rem" }}
                   data-sb-validations="required"
                 ></textarea>
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">Mensaje</label>
                 <div
                   className="invalid-feedback"
                   data-sb-feedback="message:required"
                 >
-                  A message is required.
+                  El mensaje es requerido.
                 </div>
               </div>
               {/*<!-- Submit success message-->*/}
@@ -103,7 +103,7 @@ export const Contact = () => {
               {/*<!-- has successfully submitted-->*/}
               <div className="d-none" id="submitSuccessMessage">
                 <div className="text-center mb-3">
-                  <div className="fw-bolder">Form submission successful!</div>
+                  <div className="fw-bolder">¡Mensaje enviado con éxito!</div>
                   To activate this form, sign up at
                   <br />
                   <a href="https://startbootstrap.com/solution/contact-forms">
@@ -117,7 +117,7 @@ export const Contact = () => {
               {/*<!-- an error submitting the form-->*/}
               <div className="d-none" id="submitErrorMessage">
                 <div className="text-center text-danger mb-3">
-                  Error sending message!
+                  Error al enviar el mensaje.
                 </div>
               </div>
               {/*<!-- Submit Button-->*/}
@@ -127,7 +127,7 @@ export const Contact = () => {
                   id="submitButton"
                   type="submit"
                 >
-                  Submit
+                  Enviar
                 </button>
               </div>
             </form>
@@ -136,7 +136,7 @@ export const Contact = () => {
         <div className="row gx-4 gx-lg-5 justify-content-center">
           <div className="col-lg-4 text-center mb-5 mb-lg-0">
             <i className="bi-phone fs-2 mb-3 text-muted"></i>
-            <div>+1 (555) 123-4567</div>
+            <div>(+569) 2637-9949</div>
           </div>
         </div>
       </div>

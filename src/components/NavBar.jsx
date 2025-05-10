@@ -19,7 +19,7 @@ export const NavBar = () => {
     >
       <div className="container px-4 px-lg-5">
         <a className="navbar-brand" href="#page-top">
-          Start Bootstrap
+          Inicio
         </a>
         <button
           className="navbar-toggler navbar-toggler-right"
@@ -36,22 +36,22 @@ export const NavBar = () => {
           <ul className="navbar-nav ms-auto my-2 my-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About
+                Sobre mi
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#services">
-                Services
+                Servicios
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
-                Portfolio
+                Portafolio
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

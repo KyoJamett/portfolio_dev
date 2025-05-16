@@ -9,6 +9,7 @@ import { Portfolio } from "./components/Portfolio";
 import { Action } from "./components/Action";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Timeline } from "./components/Timeline";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +31,7 @@ function App() {
       <Header />
       <About />
       <Services />
+      <Timeline />
       <Portfolio />
       <Action />
       <Contact />

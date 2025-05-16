@@ -1399,3 +1399,182 @@ header.masthead .h1 {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/*----------------------------------------- estilos traidos desde luther para timeline */
+/* ----------------------------------------------------------------------------------- */
+
+/* al agregar: la experiencia se divide en dos columnas
+  experiencia en la izquierda y estudios a la derecha
+*/
+.lg-6 {
+  flex: none;
+  width: 50%;
+}
+
+/* al agregar: estudios y experiencia vuelven a una sola columna,
+comentado hasta saber por qué se ve en dos columnas con este estilo activo
+*/
+/* .tab-12 {
+  flex: none;
+  width: 100%;
+} */
+
+/* al agregar: cambia la funete de experience y education */
+.text-pretitle {
+  /* font-family: var(--font-1); */
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-top: 0;
+  margin-left: 0.2rem;
+  margin-bottom: var(--vspace-0_5);
+  position: relative;
+}
+
+/* al agregar: nada visualmente */
+.about-info__text .text-pretitle {
+  margin-bottom: var(--vspace-1);
+}
+
+.about-timelines .text-pretitle {
+  margin-left: var(--timeline-left-padding);
+}
+
+.contact-bottom .text-pretitle {
+  margin-bottom: var(--vspace-0_125);
+}
+
+.text-pretitle {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* al agregar: nada. Se modifica para adaptar css de luther a esta plantilla */
+/* .timeline {
+  margin-top: 2rem;
+  padding-right: 1vw;
+  position: relative;
+} */
+.timeline {
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid #dee2e6;
+  position: relative;
+}
+
+/* al agregar: */
+.timeline__block {
+  margin-bottom: 2rem;
+  /* padding-left: 1.5rem; */
+  position: relative;
+}
+
+.timeline__block:last-child {
+  padding-bottom: 0;
+}
+
+/* .timeline__bullet {
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: var(--timeline-top-adjust);
+  left: 0;
+} */
+.timeline__bullet {
+  position: absolute;
+  left: -29px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #dee2e6; /* opcional: borde para integrarlo con la línea */
+  z-index: 1; /* asegura que esté sobre la línea */
+}
+
+/* timeline header: agregado despues de agregar todos los estilos de timeline */
+.timeline__header {
+  margin-bottom: 0.5rem;
+}
+
+/*  al agregar: cambia la fuente de Dropbox, Microsoft, University of life y School of cool Designers */
+.timeline__title {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  color: #212529;
+}
+
+/* al agregar: cambia la fuente del cargo y el título obtenido */
+.timeline__meta {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+}
+
+/* al agregar: cambia fuente de años en trabajo y estudio */
+.timeline__timeframe {
+  font-size: 0.75rem;
+  color: #6c757d;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.timeline__desc p {
+  margin-bottom: 1.5rem;
+  color: #212529;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* al agregar: texto desaparece salvo experience y education 
+  comentado hasta saber más detalles
+*/
+/* [data-animate-el] {
+  opacity: 0;
+} */
+/* [data-animate-el],
+[data-animate-block] {
+  opacity: 1 !important;
+  transform: none !important;
+} */
+
+/*  */
+[data-animate-el] {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive: una sola columna en pantallas pequeñas */
+@media (max-width: 768px) {
+  .timeline {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .timeline__block {
+    padding-left: 0;
+  }
+
+  .timeline__bullet {
+    display: none;
+  }
+}

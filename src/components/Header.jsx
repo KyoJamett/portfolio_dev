@@ -5,19 +5,19 @@ export const Header = () => {
         <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
           <div className="col-lg-8 align-self-end">
             <h1 className="text-white font-weight-bold">
-              I'm Ignacio, a Fullstack Developer focused on building clean,
-              scalable web solutions.
+              Soy Ignacio, Ingeniero Civil Informático enfocado en desarrollar
+              soluciones web limpias y escalables.
             </h1>
             <hr className="divider" />
           </div>
           <div className="col-lg-8 align-self-baseline">
             <p className="text-white-75 mb-5">
-              Skilled in React, Spring Boot, and Javascript — I craft solutions
-              from frontend to backend, with a focus on clean code and
-              user-centered design.
+              Con experiencia en Javascript, React y Laravel - Desarrollo
+              soluciones tanto backend como frontend, enfocandome en código
+              limpio y un diseño enfocado en los usuarios.
             </p>
             <a className="btn btn-primary btn-xl" href="#about">
-              Find Out More
+              Quiero saber más
             </a>
           </div>
         </div>

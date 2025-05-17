@@ -1449,6 +1449,7 @@ comentado hasta saber por qué se ve en dos columnas con este estilo activo
 .text-pretitle {
   opacity: 1 !important;
   transform: none !important;
+  color: #dee2e6;
 }
 
 /* al agregar: nada. Se modifica para adaptar css de luther a esta plantilla */
@@ -1515,14 +1516,14 @@ comentado hasta saber por qué se ve en dos columnas con este estilo activo
 .timeline__meta {
   font-size: 1rem;
   font-weight: 400;
-  color: #6c757d;
+  color: #dee2e6;
   margin-bottom: 0.25rem;
 }
 
 /* al agregar: cambia fuente de años en trabajo y estudio */
 .timeline__timeframe {
   font-size: 0.75rem;
-  color: #6c757d;
+  color: #dee2e6;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;

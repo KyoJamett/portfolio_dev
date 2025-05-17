@@ -45,6 +45,11 @@ export const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#timeline">
+                Experiencia
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#portfolio">
                 Portafolio
               </a>

@@ -8,24 +8,26 @@ export const Timeline = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-5 px-4 px-lg-5 mt-5 mt-lg-0">
             <h2 className="text-pretitle" data-animate-el>
-              Experience
+              Experiencia
             </h2>
 
             <div className="timeline" data-animate-el>
               <div className="timeline__block">
                 <div className="timeline__bullet"></div>
                 <div className="timeline__header">
-                  <h4 className="timeline__title">Dropbox</h4>
-                  <h5 className="timeline__meta">Product Designer</h5>
-                  <p className="timeline__timeframe">August 2019 - Present</p>
+                  <h4 className="timeline__title">Workmate</h4>
+                  <h5 className="timeline__meta">Fullstack Developer</h5>
+                  <p className="timeline__timeframe">
+                    Junio 2024 - Octubre 2024
+                  </p>
                 </div>
                 <div className="timeline__desc">
                   <p>
-                    Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                    magna consectetur nisi cupidatat laboris esse eiusmod
-                    deserunt aute do quis velit esse sed Ut proident cupidatat
-                    nulla esse cillum laborum occaecat nostrud sit dolor
-                    incididunt amet est occaecat nisi.
+                    Sistemas de administración de contratos laborales y control
+                    de acceso a faenas mineras: Implementación de nuevas
+                    funcionalidades, modificación de vistas y controladores.
+                    Colaboración con mesa de ayuda en resolución de bugs en
+                    incidencias.
                   </p>
                 </div>
               </div>
@@ -33,17 +35,19 @@ export const Timeline = () => {
               <div className="timeline__block">
                 <div className="timeline__bullet"></div>
                 <div className="timeline__header">
-                  <h4 className="timeline__title">Microsoft</h4>
-                  <h5 className="timeline__meta">Frontend Developer</h5>
-                  <p className="timeline__timeframe">August 2016 - July 2019</p>
+                  <h4 className="timeline__title">FID Seguros</h4>
+                  <h5 className="timeline__meta">
+                    Analista Desarrollador/Ingeniero de Software
+                  </h5>
+                  <p className="timeline__timeframe">Enero 2021 - Abril 2023</p>
                 </div>
                 <div className="timeline__desc">
                   <p>
-                    Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                    magna consectetur nisi cupidatat laboris esse eiusmod
-                    deserunt aute do quis velit esse sed Ut proident cupidatat
-                    nulla esse cillum laborum occaecat nostrud sit dolor
-                    incididunt amet est occaecat nisi.
+                    Sistema MACAO: Mantenimiento y desarrollos para sistema de
+                    gestión de emisiones y renovaciones de pólizas automotrices.
+                    <hr></hr>
+                    Catálogos corporativos: Sistema de consulta a bases de datos
+                    para ser utilizado por sistemas internos de la empresa.
                   </p>
                 </div>
               </div>
@@ -54,24 +58,25 @@ export const Timeline = () => {
 
           <div className="col-lg-6 col-md-12 mb-5 px-4 px-lg-5 mt-5 mt-lg-0">
             <h2 className="text-pretitle" data-animate-el>
-              Education
+              Estudios
             </h2>
 
             <div className="timeline" data-animate-el>
               <div className="timeline__block">
                 <div className="timeline__bullet"></div>
                 <div className="timeline__header">
-                  <h4 className="timeline__title">University of Life</h4>
-                  <h5 className="timeline__meta">Master in Graphic Design</h5>
-                  <p className="timeline__timeframe">April 2015</p>
+                  <h4 className="timeline__title">
+                    Licenciado en Ciencias de la Ingeniería
+                  </h4>
+                  <h5 className="timeline__meta">
+                    Pontificia Universidad Católica de Valparaíso
+                  </h5>
+                  <p className="timeline__timeframe">Diciembre 2018</p>
                 </div>
                 <div className="timeline__desc">
                   <p>
-                    Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                    magna consectetur nisi cupidatat laboris esse eiusmod
-                    deserunt aute do quis velit esse sed Ut proident cupidatat
-                    nulla esse cillum laborum occaecat nostrud sit dolor
-                    incididunt amet est occaecat nisi.
+                    Grado académico intermedio obtenido tras completar el cuarto
+                    año del plan de estudios de Ingeniería Civil Informática.
                   </p>
                 </div>
               </div>
@@ -79,19 +84,19 @@ export const Timeline = () => {
               <div className="timeline__block">
                 <div className="timeline__bullet"></div>
                 <div className="timeline__header">
-                  <h4 className="timeline__title">School of Cool Designers</h4>
+                  <h4 className="timeline__title">
+                    Ingeniero Civil Informático
+                  </h4>
                   <h5 className="timeline__meta">
-                    B.A. Degree in Graphic Design
+                    Pontificia Universidad Católica de Valparaíso
                   </h5>
-                  <p className="timeline__timeframe">August 2012</p>
+                  <p className="timeline__timeframe">Diciembre 2021</p>
                 </div>
                 <div className="timeline__desc">
                   <p>
-                    Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in
-                    magna consectetur nisi cupidatat laboris esse eiusmod
-                    deserunt aute do quis velit esse sed Ut proident cupidatat
-                    nulla esse cillum laborum occaecat nostrud sit dolor
-                    incididunt amet est occaecat nisi.
+                    Título profesional obtenido tras completar el plan de
+                    estudios y defensa de memoria en el área de sistemas de
+                    software.
                   </p>
                 </div>
               </div>
